@@ -35,9 +35,9 @@ NovaTech-AD-Lab/
 
 ├── scripts/
 
-│   ├── 01-setup-ad.ps1          \# Installation AD DS et promotion DC
+│   ├── 01-create-ous.ps1        \# Création de l'arborescence
 
-│   ├── 02-create-ous.ps1        \# Création de l'arborescence
+│   ├── 02-create-sub-containers.ps1     \# Création des sous-conteneurs des OUs
 
 │   ├── 03-create-groups.ps1     \# Création des groupes de sécurité
 
@@ -59,19 +59,17 @@ NovaTech-AD-Lab/
 
 │   ├── cahier-des-charges.pdf   \# Spécifications complètes du projet
 
-│   ├── scenario-A-onboarding.pdf
-
-│   ├── scenario-B-offboarding.pdf
-
-│   └── scenario-C-audit-rh.pdf
+│   ├── Documentation_Scenario.pdf
 
 └── screenshots/                 \# Captures d'écran des validations
 
     ├── arborescence-AD.png
 
-    ├── gpresult-utilisateur-standard.png
+    ├── gpo.png
 
-    ├── gpresult-direction-filtre.png
+    ├── gpresult-computer.png
+
+    ├── gpresult-user.png
 
     └── delegation-rh-gpmc.png
 
