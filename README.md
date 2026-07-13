@@ -43,7 +43,7 @@ NovaTech-AD-Lab/
 
 │   ├── 04-create-users.ps1      \# Création des utilisateurs depuis CSV
 
-│   └── data/                    \# Fichiers CSV par département
+│   └── csv/                    \# Fichiers CSV par département
 
 │       ├── direction.csv
 
