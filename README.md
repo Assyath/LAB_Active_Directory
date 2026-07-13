@@ -31,7 +31,7 @@ Le projet a été réalisé dans un environnement virtualisé (VirtualBox) en pa
 - Jonction de 2 postes clients au domaine et tests de connexion utilisateurs
 
  Structure du dépôt  
-NovaTech-AD-Lab/
+NovaTech_AD/
 
 ├── scripts/
 
